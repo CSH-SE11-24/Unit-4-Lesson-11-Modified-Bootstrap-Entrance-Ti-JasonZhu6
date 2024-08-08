@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Bootstrap Lab</title>
+  <link href="style.css" rel="stylesheet">
+  <!-- Task 1 (part 1): Link Bootstrap CSS -->
+  
+</head>
+
+<body>
+  <!-- Task 2: Modify the navbar to have the following links (all other links should be deleted or disabled) -->
+  <!-- 
+  Instead of Navbar it should say CSH. 
+  First link: Home should link to index.html
+  Second link: Our Team should link to https://www.compscihigh.org/our-team 
+  All other links should be deleted
+  -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Task 3: Add a Bootstrap card with the csh.jpeg image that says "Comp Sci High" as the title and "Best school ever" as the text. The button should be removed. -->
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <!-- Task 1 (part 2): Link Bootstrap JS -->
+
+</body>
+
+</html>
